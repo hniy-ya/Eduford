@@ -53,3 +53,25 @@ nav{
         .text-box h1{
             font-size: 62px;
         }
+   @media (max-width: 768px) {
+          
+            .nav-links {
+              right: 0;
+              top: 0;
+              width: 200px;
+              height: 100vh;
+              background: #f44336;
+                position: absolute;
+                text-align: left;
+                z-index: 2;
+               
+            }
+            .nav-links ul li{
+                display: block;
+                padding: 20px;
+            }
+            .text-box h1 {
+                font-size: 36px;
+            }
+
+        }
