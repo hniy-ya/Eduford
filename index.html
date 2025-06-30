@@ -1,23 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>University website</title>
-    <link rel="stylesheet" href="style.css"></head>
-<body>
-    <section class="header">
-             <nav class="navbar">
-                <a href="index.html"><img src="assets/logo.png" alt="logo"></a>
-                <div class="nav-links">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>University website</title>
+        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" />
+
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap"
+            rel="stylesheet"
+        />
+    </head>
+    <body>
+        <section class="header">
+            <nav class="navbar">
+                <a href="index.html"><img src="assets/logo.png" alt="logo" /></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
                     <ul>
-                        <li><a href="">#Home</a></li>
-                         <li><a href="">#About</a></li>
-                          <li><a href="">#Course</a></li>
-                         <li><a href="">#Blog</a></li>
-                         <li><a href="">#Contact</a></li></ul>
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Course</a></li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
                 </div>
-             </nav>
-    </section>
-</body>
+                <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+            </nav>
+
+            <div class="text-box">
+                <h1>World's Biggest University</h1>
+                <p>
+                    A paragraph is a group of sentences that develops one main idea. ,<br />
+                    coherent, and well-developed, with a topic sentence that introduces the main idea.
+                </p>
+                <a href="" class="hero-btn">Visit Us To know More</a>
+            </div>
+        </section>
+
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+        </script>
+    </body>
 </html>
