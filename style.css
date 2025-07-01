@@ -236,3 +236,45 @@ h3{
         opacity: 1;
 
     }
+    .facilites {
+        text-align: center;
+        width: 80%;
+        margin: auto;
+        padding-top: 50px;
+    }
+
+
+   .facilites h1 {
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.facilites p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+   padding: 10px;
+    line-height: 22px;
+}
+ .faci-col{
+    flex-basis: 32%;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 5%;
+    padding-top: 100px;
+}
+
+.faci-col img {
+    width: 100%;
+    border-radius: 10px;
+}
+.faci-col p{
+
+    padding: 0;
+}
+.faci-col h3 {
+    text-align: left;
+    margin-top:16px 
+    ;
+    margin-bottom: 15px;
+}
