@@ -115,3 +115,53 @@ nav img {
         cursor: pointer;
     }
 }
+
+
+
+.course {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 100px;
+   
+}
+.course h1 {
+    font-size: 40px;
+    font-weight: 600;
+    
+}
+.course p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #777;
+   padding: 10px;
+    line-height: 22px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+.course-col{
+    flex-basis: 31%;
+    box-sizing: border-box;
+    background-color: #fff3f3;
+    
+    border-radius: 10px;
+    padding: 20px 12px;
+    margin-top: 5%;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    margin: 10px 0;
+    font-weight: 600;
+}
+.course-col:hover{
+    box-shadow: 0 0 15px 5px rgba(68, 68, 68, 0.3);
+
+}
+@media (max-width: 768px) {
+    .row {
+        flex-direction: column;
+    }}
